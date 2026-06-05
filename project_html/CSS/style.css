@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+}
+.head{
+    background-color: rgb(0, 0, 0);
+}
+#heading {
+    color: #5A3E28;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    width:100%;
+    height:50px;
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    width:1250px;
+    margin:0 auto;
+}
+.nav{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+   }
+.btn{
+    margin-top:20px;
+    text-align: center;
+    padding:10px;
+    border:none;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Times New Roman';
+    background-color: rgb(0, 0, 0);
+}
+.btn a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+}
+.login{
+    margin-top:20px;
+    padding:10px;
+    border:none;
+    font-size:20px;
+    text-decoration: none;
+    font-family: 'Times New Roman';
+    background-color: rgb(0, 0, 0);
+    float:right;
+}
+.login a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: right;
+    background-color: rgb(0, 0, 0);
+   
+}
+.box{
+    width: 100%;
+    height: 400px;
+    background-image: url('../image/cafe.jpg');
+    margin:0 auto;
+    color: rgb(255, 255, 255);
+    text-align: center; 
+    background-position: bottom center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    display:inline-block;
+    align-items: center;
+    width:500px;
+}
+.menu{
+    border:1px solid black;
+    color:black;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    text-decoration: bold italic;
+    background-color: #5A3E28;
+    padding:10px;
+    border-radius:10px;
+    transition: all 0.5s;
+}
+.menu a{
+    color:black;
+    text-decoration:none;
+    align-items: center;
+    transition: all 0.5s;
+}
+.menu:hover{
+    background-color:#B2A28E;
+    border-radius:10px;
+}
+.menu:hover a{
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+}
+.box1{
+    width:200px;
+    height:300px;
+    background-color:#5A3E28 ;
+    margin:20px 20px;
+    border-radius:10px;
+    position:static;
+    display:inline-block;
+    opacity: 0.8;
+    border:0.5px solid #B2A28E;
+}
+.our{
+    font-family: "Birthstone", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:#c8bfae;
+    text-align: center;
+    font-size:30px;
+}
+.picks{
+    font-family: "Stack Sans Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color:white;
+    font-size:40px;
+    text-align: center;
+}
+.image{
+    width:100px;
+}

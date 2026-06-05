@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+.container{
+    width:1280px;
+    margin:0 auto;
+}
+.topbar{
+    background-color: #f0f3f2;
+}
+.left{
+    float: left;
+    color:#5c6c75;
+    font-size:15px;
+    text-align: center;
+    text-decoration:bold;
+}
+.right{
+    float:right;
+    color:#5c6c75;
+    font-size:15px;
+    text-align: center;
+}
+.clear{
+    clear:both;
+    padding:5px 0;
+}
+.right .down{
+    transition: all 0.5px;
+}
+.right .down:hover{
+    color:#5cca5c;
+    cursor:pointer;
+}
