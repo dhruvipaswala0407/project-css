@@ -5,7 +5,12 @@
 body{
     background-color: #f3f4f6;
     padding: 20px;
+    font-family: "Noto Sans", sans-serif;
 }
+.clear{clear:both;}
+img{width:100%}
+.float-left{float:left;}
+.float-right{float:right;}
 .main-header {
     display: flex;
     justify-content: space-between;
@@ -23,9 +28,9 @@ img{width:100%;}
     display: flex;
     align-items: center;
     background-color: #f3f4f6;
-    padding: 6px 14px;
+    padding: 7px 14px;
     border-radius: 10px;
-    width: 300px;
+    width: 350px;
 }
 .input-group input{
     background: none;
@@ -53,4 +58,307 @@ img{width:100%;}
 .header-icons button{
     border:none;
 }
+.side-bar{
+    width: 20%;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+    height:85vh;
+    padding:10px;
+    background-color: rgb(255, 255, 255);
+    margin:15px 10px;  
+}
+.profile{
+    display:flex;
+    justify-content: space-between;
+    margin-top:15px;
+}
+.profile-photo{
+    border-radius:50%;
+    overflow:hidden;
+    width: 50px;
+    margin-left: 10px;
+}
+.profile h4 {
+    width:10%;
+    text-decoration: bold;
+    font-size: 16px;
+}
+.profile p{
+    font-size: 14px;
+    color: #555;
+    margin-top:5px;
+}
+.swicth-btn{
+    padding:10px;
+    font-size:12px;
+}
+.swicth-btn button{
+    border:none;
+    background-color:transparent;
+    color:#39b1e0;
+    font-weight: 800;
+}
+.active span{
+    font-size: 16px;
+}
+.active {
+    background-color:  #f3f4f6;
+    border-radius: 10px;
+    padding:10px;
+    margin:10px;
+    font-weight: 600;
+    box-shadow: 0 4px 10px #bdafaf;
+}
+.des {
+    padding:10px;
+    margin:10px;
+}
+.des span{
+    color:#555;
+    font-weight:500;
+}
+.log {
+    margin-top:100px;
+    float:left;
+}
+.log button{
+   padding:30px;
+   background-color: transparent;
+   border:none;
+   color:#555;
+   font-size:16px;
+   font-weight: 500;
+}
+.feed-bar{
+    width:35%;
+    height:85vh;
+    margin:40px 200px;
+}
+.stories-fram {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
+    overflow-x: auto;
+}
+.story-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80px; 
+}
+.storie-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 3px; 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:30px;
+    border:2px solid #f13434;   
+    position:relative;
+    
+}
+.plus{
+    width:15px;
+    height:15px;
+    background-color: #39b1e0;
+    border-radius:50%;
+    line-height:15px;
+    font-size: 12px;
+    position:absolute;
+    bottom:1%;
+    color:white;
+}
+.storie-circle.red{ border:none;}
+.storie-circle img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.dp-name {
+    color: #555;
+    font-size: 13px;
+    margin-top: 8px; 
+    overflow: hidden;
+    width: 100%;
+    margin-left:30px;
+}
+.feed-heding{
+    margin-top: 15px;
+    font-weight: 600;
+}
+.post-feed{
+    background-color: #ffffff; 
+    border-radius:10px;
+    height:60vh;
+    padding:8px;
+    
+}
+.post-feed .profile-info{
+    display:inline-block;
+}
+.post-feed .profile-info h4{
+    font-size:14px;
+    margin-left:20px ;
+}
+.post-feed .profile-info p{
+    color:#555;
+    font-size:12px;
+    margin-left:20px;
+}
+.menu-btn button{
+    display:inline-block;
+    background-color: transparent;
+    border:none;
+    font-weight:700;
+}
+.post-fram{
+    width:90%;
+    overflow: hidden;
+    margin:0 auto;
+    border-radius:10px;
+}
+.post-photo{
+    object-fit: cover;
+    
+}
+.like-button{
+    width:60px;
+    background-color: red;
+    color:white;
+    border-radius:20px;
+    font-size:14px;
+    padding:5px ;
+    margin:5px 3px 5px 25px;
+}
+.comment-button {
+    width:40px;
+    color:#555;
+    margin:5px 3px 5px;
+}
+.send-button{
+    margin:5px 3px 5px;
+    width:20px;
+    color:#555;
+}
+.des-bar{
+    width:20%;
+    margin-top:50px;
+}
+.se-btn{
+    background-color:transparent;
+    border:none;
+    color:#39b1e0;
+    font-weight: 700;
+}
+.post-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
 
+.likes-section {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.bold-text {
+    font-weight: 600;
+}
+.caption-section {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.more-text {
+    color: #8e8e8e;
+    cursor: pointer;
+}
+.date-text {
+    font-size: 12px;
+    color: #8e8e8e;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.comment-box {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #efefef;
+    padding-top: 12px;
+}
+.profile-avatar {
+    width: 32px;
+    height: 32px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+}
+.profile-avatar ::before {
+    content: "⚡";
+    color: #ffffff;
+    font-size: 14px;
+}
+.input-container {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 8px 16px;
+    margin-right: 12px;
+}
+.comment-input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 14px;
+}
+.emoji-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #8e8e8e;
+    padding: 0;
+}
+.post-button {
+    background: none;
+    border: none;
+    color: #0095f6;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+.pre{
+    color:#8e8e8e;
+    font-size:12px;
+}
+.green{
+    color:green;
+    font-weight:600;
+}
+.mb-8{margin:8px;}
+.day{
+    background-color:white;
+    border:none;
+    border-radius:10px;
+    padding:5px;
+    box-shadow:0 2px 5px black;
+}
+.graft{margin:8px;}
+.ml-5{margin-left:5px;}
+.mt-8{margin-top:8px;}
+.live-btn a, .live-btn i{
+    text-decoration:none;
+    color:#bdafaf;
+    font-size:12px;
+    padding:5px;
+}
